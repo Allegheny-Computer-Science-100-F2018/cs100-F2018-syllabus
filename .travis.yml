@@ -4,7 +4,7 @@ before_install:
   texlive-latex-recommended
 script:
 - mkdir _build
-- latexmk -pdf -outdir=_build cs111F2017_syllabus.tex
+- latexmk -pdf -outdir=_build cs100F2018_syllabus.tex
 deploy:
   provider: releases
   api_key:
